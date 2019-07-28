@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1337337414358742028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1337337414358742024}
+  - component: {fileID: 1337337414358742027}
+  - component: {fileID: 1337337414358742026}
+  - component: {fileID: 381142495969163504}
+  - component: {fileID: 1337337414358742029}
+  m_Layer: 0
+  m_Name: mediumLevelManager
+  m_TagString: SceneManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1337337414358742024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337337414358742028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.825915, y: -4.723206, z: 19.552002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1337337414358742027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337337414358742028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e996e9d10fc69884a8c9687c3fad6f88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: 0
+  scoreText: {fileID: 0}
+--- !u!114 &1337337414358742026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337337414358742028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c75a6585877ff904a87a0cfae4f6cb42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTime: 120
+  timeText: {fileID: 0}
+--- !u!114 &381142495969163504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337337414358742028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0581a2314bb5640a2a790ec4b7d937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerShip: {fileID: 1165332253397890, guid: 5e6d0ac3a5a27bf44b359341af151921, type: 3}
+  playerSpawnLocation: {x: 0, y: -15, z: 0}
+  playerSpawnRotation: {x: 0, y: 0, z: 0}
+--- !u!114 &1337337414358742029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337337414358742028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01d3118431be31a408d1e714aacffe24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingNormal: 8
+  startingKamikaze: 1
+  startingRedHeavyGunners: 2
+  startingGreenHeavyGunners: 1
+  normalEnemySpawnTime: 2
+  kamikazeEnemySpawnTime: 8
+  redHeavyGunnerSpawnTime: 15
+  greenHeavyGunnerSpawnTime: 30
+  kamikazeEnemy: {fileID: 7985266603654172508, guid: f7c3d41498a8fc645966d92b14b5cc60,
+    type: 3}
+  normalEnemy: {fileID: 1565374508115276, guid: a7f34f4b2c77ab34a99bd5c82f35f25f,
+    type: 3}
+  redHeavyGunner: {fileID: 1066921315907230, guid: e0e94d9b77bbe824ab5cdbcddca1da84,
+    type: 3}
+  greenHeavyGunner: {fileID: 6244997267996445170, guid: b1eff4a740da7a14c95ffcd6462a880f,
+    type: 3}
+  tripplePowerup: {fileID: 7757687227133031764, guid: 63d382e1e279c1f428bdeae248ac5456,
+    type: 3}
+  healthPowerup: {fileID: 3752772974366630155, guid: d6be459552e73d4478a2e24afdc96df0,
+    type: 3}
+  shieldPowerup: {fileID: 540039507253759009, guid: fdd1d802d9ab9304e82d6ce5d080b49f,
+    type: 3}
+  trippleShotPowerupCooldown: 60
+  healthPowerupCooldown: 30
+  shieldPowerupCooldown: 60
+  trippleShotStartingTimer: 15
+  healthStartingTimer: 45
+  shieldStartingTimer: 30
+  player: {fileID: 0}

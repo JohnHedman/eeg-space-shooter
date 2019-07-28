@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3392267529724515371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3392267529724515413}
+  - component: {fileID: 3392267529724515370}
+  m_Layer: 0
+  m_Name: enemyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3392267529724515413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3392267529724515371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3392267529724515370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3392267529724515371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0c0157530d1d947b9ac2c6f8cfb3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingNormal: 5
+  startingKamikaze: 2
+  startingRedHeavyGunners: 2
+  startingGreenHeavyGunners: 1
+  normalEnemySpawnTime: 2
+  kamikazeEnemySpawnTime: 5
+  redHeavyGunnerSpawnTime: 7
+  greenHeavyGunnerSpawnTime: 10
+  kamikazeEnemy: {fileID: 7985266603654172508, guid: f7c3d41498a8fc645966d92b14b5cc60,
+    type: 3}
+  normalEnemy: {fileID: 1565374508115276, guid: a7f34f4b2c77ab34a99bd5c82f35f25f,
+    type: 3}
+  redHeavyGunner: {fileID: 1066921315907230, guid: e0e94d9b77bbe824ab5cdbcddca1da84,
+    type: 3}
+  greenHeavyGunner: {fileID: 6244997267996445170, guid: b1eff4a740da7a14c95ffcd6462a880f,
+    type: 3}
+  tripplePowerup: {fileID: 7757687227133031764, guid: 63d382e1e279c1f428bdeae248ac5456,
+    type: 3}
+  healthPowerup: {fileID: 3752772974366630155, guid: d6be459552e73d4478a2e24afdc96df0,
+    type: 3}
+  shieldPowerup: {fileID: 540039507253759009, guid: fdd1d802d9ab9304e82d6ce5d080b49f,
+    type: 3}
+  trippleShotPowerupCooldown: 60
+  healthPowerupCooldown: 30
+  shieldPowerupCooldown: 30
+  player: {fileID: 0}
